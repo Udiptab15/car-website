@@ -1,0 +1,47 @@
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06d85f;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  background: #06d85f;
+}
+
+.button:hover {
+  background: #23980f;
+}
+
+.goback-button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #c1272d;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  background: #c1272d;
+}
+
+.goback-button:hover {
+  background: #9d2227;
+}
+
+body {
+  text-align: center;
+  background-image: url("preventivemaintenanceservice.jpg");
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+div {
+  background-color: #e0e0e0;
+  margin: auto;
+  width: 50%;
+  opacity: 0.8;
+  text-align: center;
+  padding: 50px;
+}

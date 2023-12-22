@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Service</title>
+    <link rel="stylesheet" href="booking.css" />
+    <script src="booking.js"></script>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Book Service</h1>
+      <form
+        id="booking-form"
+        method="get"
+      >
+        <label for="service">Select service:</label>
+        <select id="service" name="service">
+          <option value="preventive-maintenance">Preventive Maintenance</option>
+          <option value="car-care-service">Car Care Service</option>
+          <option value="oil-change">Oil Change</option>
+          <option value="brake-repair">Brake Repair</option>
+          <option value="battery-services">Battery Services</option>
+          <option value="battery-replacement">Battery Replacement</option>
+          <option value="body-repair">Body Repair</option>
+          <option value="engine-repair">Engine Repair</option></select
+        ><br />
+        <label for="appointment-date">Appointment date:</label>
+        <input
+          type="date"
+          id="appointment-date"
+          name="appointment-date"
+          required
+        /><br />
+        <span id="date-error" class="error-message"></span>
+        <br /><br />
+
+        <button type="submit" value="Submit" class="button" id="bookAppointment" onclick="return checkAppointment()">
+          Book Appointment
+        </button>
+        <button class="button" onclick="location.assign(document.referrer)">
+          Go Back</button
+        ><br /><br />
+        <button class="button" onclick="location.assign('services.html')">
+          Back to Services
+        </button>
+      </form>
+      <br />
+    </div>
+  </body>
+</html>

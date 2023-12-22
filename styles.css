@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  background-image: url("brakerepairbg.jpg");
+  color: black;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+.info {
+  background-color: whitesmoke;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box-classic-body {
+  padding: 30px 15px;
+  display: flex;
+  background-color: rgba(56, 63, 64, 0.8);
+  transition: all 0.3s ease-in-out;
+  flex-direction: column;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box-classic-text {
+  margin-top: 15px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.button {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
