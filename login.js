@@ -19,7 +19,7 @@ loginForm.addEventListener("submit", (event) => {
 
   if (user) {
     result.textContent = "";
-    window.location.href = "home.html";
+    window.location.href = "index.html";
   } else {
     result.textContent = "Incorrect username or password.";
     result.classList.add("error");

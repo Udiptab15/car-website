@@ -9,7 +9,7 @@ function rateExperience() {
 }
 
 function logoutfunc() {
-  window.location.href = "home.html";
+  window.location.href = "index.html";
   alert("You have successfully logged out.");
 }
 
